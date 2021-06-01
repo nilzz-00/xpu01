@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	
+
+	<color name="mediumseagreen">#3CB371</color><!--中海蓝 -->
+	<color name="deeppink">#FF1493</color><!--深粉红色 -->
+	<color name="tblack">#151515</color>
+	<color name="white">#FFFFFF</color><!--白色 -->
+	<color name="yellow">#FFFF00</color><!--黄色 -->
+	<color name="bblack">#111111</color>
+	<color name="black">#000000</color><!--黑色 -->
+</resources>

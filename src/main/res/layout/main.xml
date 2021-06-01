@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    
+    >
+	
+	<LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+		
+	    <ImageView
+			android:id="@+id/aIcon"
+            android:layout_width="157dp"
+            android:layout_height="84dp"
+            android:layout_weight="1.0"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+			android:layout_marginEnd="3dp"
+            android:layout_alignParentStart="true"
+			android:src="@drawable/ic_launcher"/>
+		
+		<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+	
+			<TextView
+				android:id="@+id/aname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+	
+			<TextView
+				android:textIsSelectable="true"
+				android:id="@+id/apackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="package"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+            <TextView
+				android:textIsSelectable="true"
+				android:id="@+id/aversion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="version"
+                android:layout_alignParentEnd="true" />
+            <TextView
+				android:textIsSelectable="true"
+				android:id="@+id/asign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sign"
+                android:layout_alignParentEnd="true" />
+			
+		</LinearLayout>
+		
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/apkuid"
+        android:text="uid"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+	
+    <TextView
+		android:id="@+id/areinforce"
+        android:text="reinforce"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+
+    <TextView
+		android:id="@+id/asize"
+        android:text="size"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+	
+	<TextView
+		android:id="@+id/md5apk"
+        android:text="md5apk"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+	<TextView
+		android:id="@+id/crc32apk"
+        android:text="crc32apk"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+	<TextView
+		android:id="@+id/md5sign"
+        android:text="md5sign"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+	
+	
+	
+	<TextView
+		android:id="@+id/datadir"
+        android:text="dataDirectory"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+
+    <TextView
+		android:id="@+id/apkdir"
+        android:text="apkDirectory"
+		android:layout_marginStart="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:textIsSelectable="true" />
+
+	
+	<LinearLayout
+		android:gravity="bottom"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		
+		android:layout_weight="1">
+		
+        <Button
+			android:id="@+id/adump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPEN"
+            android:layout_weight="1.0"
+            />
+        <Button
+			android:id="@+id/adeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DETA"
+            android:layout_weight="1.0"
+            
+            />
+        <Button
+			android:id="@+id/ahook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOOK"
+            android:layout_weight="1.0"
+            />
+        <Button
+			android:id="@+id/aelog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELOG"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+	
+	
+</LinearLayout>

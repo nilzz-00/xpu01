@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="8dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+		android:id="@+id/dbx"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="19sp"
+		android:layout_gravity="center"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="0.8"
+			android:width="100dp"
+			android:hint="文件MD5值"
+			android:id="@+id/ewjmdu"/>
+		<Button
+			android:id="@+id/wjmdu"
+			android:layout_width="40dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.2"
+			android:text="校验" />
+	</LinearLayout>
+	
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_weight="0.8"
+			android:width="100dp"
+			android:hint="签名MD5值"
+			android:id="@+id/eqmmdu"/>
+		<Button
+			android:id="@+id/qmmdu"
+			android:layout_width="40dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.2"
+			android:text="校验" />
+	</LinearLayout>
+	
+</LinearLayout>

@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="8dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/dump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DUMP脱壳"
+            android:layout_centerVertical="true" />
+        <Switch
+			android:id="@+id/hook_dump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dump" />
+    </RelativeLayout>
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/edump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2DUMP脱壳"
+            android:layout_centerVertical="true" />
+        <Switch
+			android:id="@+id/hook_edump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/edump" />
+    </RelativeLayout>
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/vpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="屏蔽抓包检测"
+            android:layout_centerVertical="true" />
+        <Switch
+            android:id="@+id/hook_gvpn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/vpu" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/dwtc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全局弹窗定位"
+            android:layout_centerVertical="true" />
+        <Switch
+
+			android:id="@+id/hook_dwtc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dwtc" />
+    </RelativeLayout>
+
+</LinearLayout>

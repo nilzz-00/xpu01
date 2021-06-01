@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="8dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<Button
+		android:id="@+id/extract_apk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提取APK" />
+	<Button
+		android:id="@+id/sign_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取Base64签名信息" />
+	<Button
+		android:id="@+id/uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卸载应用" />
+	
+	<Button
+		android:id="@+id/ktest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="信息校验" />
+    
+</LinearLayout>

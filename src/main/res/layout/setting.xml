@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="8dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/sysapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示系统应用"
+            android:layout_centerVertical="true" />
+        <Switch
+            android:id="@+id/setting_sysapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sysapp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="识别应用加固"
+            android:layout_centerVertical="true" />
+        <Switch
+			
+			android:id="@+id/setting_checksh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/check" />
+    </RelativeLayout>
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/xlog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输出LOG到XP框架日志"
+            android:layout_centerVertical="true" />
+        <Switch
+            android:id="@+id/setting_xlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/xlog" />
+    </RelativeLayout>
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/cdump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DUMP输出到内部存储"
+            android:layout_centerVertical="true" />
+        <Switch
+            android:id="@+id/setting_cdump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/cdump" />
+    </RelativeLayout>
+	
+</LinearLayout>

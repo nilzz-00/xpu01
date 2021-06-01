@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@android:style/Theme.Material">
+		<item name="android:colorPrimary">@+color/tblack</item>
+		<item name="android:colorPrimaryDark">@+color/tblack</item>
+		
+		<item name="android:colorAccent">@+color/yellow</item> 
+		<item name="android:navigationBarColor">@+color/bblack</item>
+	<!--	按钮颜色<item name="android:colorButtonNormal">#ff009688</item>
+		-->
+		</style>
+</resources>
